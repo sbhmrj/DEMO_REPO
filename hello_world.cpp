@@ -2,11 +2,14 @@
 using namespace std;
 
 int main() {    
-    int number;
+    int number1;
+    int number2;
 
     cout << "Enter an integer: ";
-    cin >> number;
+    cin >> number1;
+    cout << "Enter an integer: ";
+    cin >> number2;
 
-    cout << "You entered " << number;    
+    cout << "multiplication of the nos You entered :" << number1 * number25;    
     return 0;
 }
